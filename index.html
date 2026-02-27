@@ -19,7 +19,7 @@
     <a-asset-item id="modeloGirando1" src="hotdog.glb"></a-asset-item>
     <a-asset-item id="modeloGirando2" src="hamburguesa.glb"></a-asset-item>
     <a-asset-item id="modeloGirando3" src="helado.glb"></a-asset-item>
-    <a-asset-item id="planet" src="Planet.glb"></a-asset-item>
+    <a-asset-item id="modeloGirando4" src="patatas"></a-asset-item>
   </a-assets>
 
   <!-- 🔄 Modelo girando -->
@@ -65,19 +65,15 @@
     animation="property: rotation; to: 0 360 0; loop: true; dur: 10000; easing: linear">
   </a-entity>
 
-</a-entity>
-<a-entity animation="property: rotation; to: 0 360 0; loop: true; dur: 20000; easing: linear">
-
-<a-entity animation="property: rotation; to: 360 0 0; loop: true; dur: 30000; easing: linear">
+<a-entity animation="property: rotation; to: 0 360 0; loop: true; dur: 50000; easing: linear">
 
   <a-entity
-    gltf-model="#planet"
-    position="0 0 -200"
-    scale="20 20 20"
-    rotation="0 0 0">
+    gltf-model="#modeloGirando4"
+    position="0 0 220"
+    scale="50 50 50"
+    animation="property: rotation; to: 0 360 0; loop: true; dur: 14000; easing: linear">
   </a-entity>
 
-</a-entity>
 
 </a-entity>
 
@@ -102,3 +98,4 @@
 </body>
 
 </html>
+
